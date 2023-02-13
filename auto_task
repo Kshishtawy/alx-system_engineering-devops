@@ -1,6 +1,0 @@
-#!/bin/bash
-touch 7-movethatfile
-echo "#!/bin/bash ">7-movethatfile
-echo "mv /tmp/betty /tmp/my_first_directory">7-movethatfile
-chmod u+x 7-movethatfile
-/alx-system_engineering-devops/auto_commit
