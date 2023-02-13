@@ -2,10 +2,8 @@
 
 cd   /alx-system_engineering-devops/0x02-shell_redirections
 
-echo -e "#!/bin/bash\n echo "Hello, World\n"">0-hello_world
+echo -e "#!/bin/bash\ncat /etc/passwd | tail">4-lastlines
 
-chmod u+x 0-hello_world
+chmod u+x 4-lastlines
 
 /alx-system_engineering-devops/auto_commit
-
-
