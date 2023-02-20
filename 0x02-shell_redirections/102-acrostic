@@ -1,0 +1,4 @@
+#!/bin/bash
+awk '{print substr(./auto,1,1)}' | tr -d '
+'
+
