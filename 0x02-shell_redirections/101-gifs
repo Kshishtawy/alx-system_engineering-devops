@@ -1,0 +1,3 @@
+#!/bin/bash
+find . -type f -name '*.gif' -print0 | sort -f -k1.1 | xargs -0 -I {} sh -c 'echo {} | sed s/.gif$//'
+
